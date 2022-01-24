@@ -86,6 +86,112 @@ main section.right img {
           transform: translateY(-50%);
 }
 
+main section.table {
+  -webkit-box-flex: 3;
+      -ms-flex: 3 1 500px;
+          flex: 3 1 500px;
+  padding: 2rem;
+}
+
+main section.table table {
+  border-collapse: collapse;
+}
+
+main section.table table tr {
+  border-bottom: 2px solid gray;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+main section.table table tr td {
+  padding: 1rem;
+}
+
+main section.table table tr td img {
+  width: 7%;
+  height: 7%;
+}
+
+main section.table table tr td ol {
+  margin-left: 1rem;
+}
+
+main section.table table tr:hover {
+  background-color: #d5f3cd;
+}
+
+main section.pic {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 600px;
+          flex: 1 1 600px;
+  position: relative;
+}
+
+main section.pic img {
+  width: 30vw;
+}
+
+main section.pic div.green {
+  width: 30vw;
+  height: 80vh;
+  background-color: #83c763;
+  position: absolute;
+  top: 30px;
+  left: 80px;
+  z-index: -1;
+}
+
+main section.form {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 600px;
+          flex: 1 1 600px;
+}
+
+main section.form form {
+  min-height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main section.form form div {
+  margin: 0.5rem;
+}
+
+main section.form form div label {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+
+main section.form form div input,
+main section.form form div textarea {
+  background-color: #83c763;
+  color: white;
+  font-size: 1.25rem;
+  padding: 0.25rem 0.25rem;
+  border: none;
+  width: 80%;
+}
+
+main section.form form div textarea {
+  vertical-align: top;
+}
+
+main section.contact {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 500px;
+          flex: 1 1 500px;
+}
+
 footer {
   padding-left: 5rem;
 }
@@ -131,6 +237,24 @@ footer a {
     width: 50vw;
     height: 50vw;
     margin: 1rem;
+  }
+  main section.pic {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 1rem;
+  }
+  main section.pic img {
+    width: 50vw;
+  }
+  main section.pic div.green {
+    display: none;
   }
   footer {
     display: -webkit-box;

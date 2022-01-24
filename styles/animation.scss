@@ -5,4 +5,105 @@ div.animation {
   position: fixed;
   top: 0;
   z-index: 10;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#animationA {
+  stroke-dasharray: 2632px;
+  stroke-dashoffset: 2632px;
+  animation: fadeInside 0.6s ease-in forwards;
+}
+
+#animationB {
+  stroke-dasharray: 2987px;
+  stroke-dashoffset: 2987px;
+  animation: fadeInside 0.6s ease-in forwards;
+}
+
+#animationC {
+  stroke-dasharray: 1456px;
+  stroke-dashoffset: 1456px;
+  animation: fadeInside 0.6s ease-in forwards;
+}
+
+#animationD {
+  stroke-dasharray: 1948px;
+  stroke-dashoffset: 1948px;
+  animation: fadeInside 0.6s ease-in forwards;
+}
+
+#animationE {
+  stroke-dasharray: 1972px;
+  stroke-dashoffset: 1972px;
+  animation: fadeInside 0.6s ease-in forwards;
+}
+
+#animationF {
+  stroke-dasharray: 2181px;
+  stroke-dashoffset: 2181px;
+  animation: fadeInside 0.6s ease-in forwards;
+}
+
+#animationG {
+  stroke-dasharray: 8181px;
+  stroke-dashoffset: 8181px;
+  animation: fadeInside 0.6s ease-in forwards;
+}
+
+#animationH {
+  stroke-dasharray: 4551px;
+  stroke-dashoffset: 4551px;
+  animation: fadeInside 0.6s ease-in forwards;
+}
+
+#animationI {
+  stroke-dasharray: 6703px;
+  stroke-dashoffset: 6703px;
+  animation: fadeInside 0.6s ease-in forwards;
+}
+
+#animationJ {
+  stroke-dasharray: 9126px;
+  stroke-dashoffset: 9126px;
+  animation: fadeInside 0.6s ease-in forwards;
+}
+
+#animationK {
+  stroke-dasharray: 2058px;
+  stroke-dashoffset: 2058px;
+  animation: fadeInside 0.6s ease-in forwards;
+}
+
+#animationL {
+  stroke-dasharray: 5840px;
+  stroke-dashoffset: 5840px;
+  animation: fadeInside 0.6s ease-in forwards;
+}
+
+#animationM {
+  stroke-dasharray: 5735px;
+  stroke-dashoffset: 5735px;
+  animation: fadeInside 0.6s ease-in forwards;
+}
+
+svg {
+  animation: fill 1s ease-in forwards;
+}
+
+@keyframes fadeInside {
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+
+@keyframes fill {
+  from {
+    fill: transparent;
+  }
+  to {
+    fill: white;
+  }
 }
