@@ -113,13 +113,13 @@ main {
   }
 
   section.form {
-    flex: 1 1 600px;
+    flex: 1 1 700px;
     form {
       min-height: 70vh;
       display: flex;
       flex-direction: column;
       justify-content: space-around;
-      align-items: center;
+      padding: 1.5rem;
       div {
         margin: 0.5rem;
         label {
@@ -133,17 +133,40 @@ main {
           font-size: 1.25rem;
           padding: 0.25rem 0.25rem;
           border: none;
-          width: 80%;
+          width: 90%;
         }
         textarea {
           vertical-align: top;
         }
       }
+      button {
+        align-self: center;
+        background-color: #83c763;
+        color: white;
+        border: none;
+        cursor: pointer;
+        padding: 0.75rem 1.5rem;
+        font-size: 1.3rem;
+        border-radius: 10px;
+      }
     }
+  }
+
+  div.line {
+    background-color: gray;
+    width: 3px;
   }
 
   section.contact {
     flex: 1 1 500px;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    div.contact {
+      h2 {
+        margin: 1rem 0rem;
+      }
+    }
   }
 }
 
